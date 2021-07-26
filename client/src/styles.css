@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+
+body{
+  background-color: #3A445D;
+  font-family: roboto;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.App{
+  background-color: #8895B3;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 6px 6px 0px 0px #F4AC45;
+}
+
+button:not(#sendBtn){
+  border: #F4AC45 4px solid;
+  background: none;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+}
+
+button:hover:not(#sendBtn){
+  border: #f89913 4px solid;
+}
+
+button:active:not(#sendBtn){
+  background: #f89913;
+}
+
+input{
+  border: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 14px;
+}
+
+button#sendBtn {  
+  color: white;
+  transition: 0.25s;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  border: 3px solid currentColor;
+  background: none;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+button#sendBtn:hover,
+button#sendBtn:focus { 
+  border-color: #F4AC45;
+  color: #fff;
+  box-shadow: inset 6.7em 0 0 0 #F4AC45;
+}
+
+.orders{
+  display: inline-block;
+  background-color: #ecdabf;
+  border-radius: 10px;
+  min-width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
